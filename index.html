@@ -2,196 +2,197 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Fim google fonts -->
-    <!--bootstrap icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- fim do bootstrap icons-->
-    <link rel="stylesheet" href="style.css">
-    <script src="menu.js" defer></script>
-    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-    <title>Meu Portifólio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="menu.js" defer></script>
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <title>Meu Portfólio</title>
 </head>
 
 <body>
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img src="./images/HatchfulExport-All (1)/HatchfulExport-All (1)/logo_transparent.png" alt="logo"
-                        width="400" height="300"">
-            </a>
-        </div><!--logo-->
+  <header>
+    <div class="interface">
+      <!-- Menu Desktop -->
+      <nav class="menu-desktop">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="./Profile.pdf" target="_blank">Currículo</a></li>
+        </ul>
+      </nav>
 
-        <nav class=" menu-desktop">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Currículo</a></li>
-                    </ul>
-                    </nav>
-                    <div class="btn-contato">
-                        <a href="#">
-                            <button>Entrar</button>
-                        </a>
-                    </div><!--btn-contato-->
-                    <div class="btn-abrir-menu" id="btn-menu">
-                        <i class="bi bi-list"></i>
-                    </div><!--btn-abrir-menu-->
-                    <div class="menu-mobile" id="menu-mobile">
-                        <div class="btn-fechar">
-                            <i class="bi bi-x-lg"></i>
-                        </div><!--fechar-->
+      <!-- Botão de Contato -->
+      <div class="btn-contato">
+        <a href="#contato">
+          <button>Entrar</button>
+        </a>
+      </div>
 
-                        <nav>
-                            <ul>
-                                <li><a href="#">Inicio</a></li>
-                                <li><a href="#">Sobre</a></li>
-                                <li><a href="#">Projetos</a></li>
-                                <li><a href="#">Currículo</a></li>
-                                <li><a href="#">Entrar</a></li>
-                            </ul>
-                        </nav>
-                    </div><!--menu-mobile-->
-                    <div class="overlay-menu" id="overlay-menu">
+      <!-- Menu Mobile -->
+      <div class="btn-abrir-menu" id="btn-menu">
+        <i class="bi bi-list"></i>
+      </div>
 
-                    </div><!--overlay-menu-->
-            </div><!--interface-->
-    </header>
-    <main>
-        <section class="topo-do-site">
-            <div class="interface">
-                <div class="flex">
-                    <div class="txt-topo-site">
-                        <h1> ANALISTA DE QUALIDADE DE SOFTWARE<span>.</span></h1>
-                        <p>Como profissional na área de qualidade de software, meu foco é implementar processos
-                            rigorosos de teste e validação para identificar e corrigir problemas antes que o produto
-                            seja lançado.</p>
-                        <div class="btn-contato">
-                            <a href="#">
-                                <button>Entre em Contato</button>
-                            </a>
-                        </div>
-                    </div><!--txt-topo-do-site-->
-                    <div class="img-topo-site">
-                        <img src="./images/eu.png">
-                    </div><!--img-topo-do-site-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--topo-do-site-->
-        <section class="especialidades">
-            <dv class="interface">
-                <h2 class="titulo">MINHAS <SPAn>ESPECIALIDADES.</SPAn></h2>
-                <div class="flex">
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
-                        <h3>Website</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-                            tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-                    </div><!--especialidades-box-->
-                    <div class="especialidades-box">
-                        <i class="bi bi-cart"></i>
-                        <h3>Loja Online</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-                            tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-                    </div><!--especialidades-box-->
-                    <div class="especialidades-box">
-                        <i class="bi bi-substack"></i>
-                        <h3>Blog</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus
-                            tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-                    </div><!--especialidades-box-->
-                </div><!--flex-->
-            </dv><!--interface-->
-        </section><!--Especialidades-->
-        <section class="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img src="./images/imagem what.jpg" alt="">
-                    </div><!--img-sobre-->
-                    <div class="txt-sobre">
-                        <h2>MUITO PRAZER, <span>SOU CARLA DO CARMO.</span></h2>
-                        <p>tualmente, atuo como Analista de Testes Manuais, possuindo pós-graduação em Engenharia de
-                            Software com foco em Qualidade
-                            e Testes, bem como em QA e Teste de Software. Tenho um
-                            forte compromisso com a garantia da qualidade dos produtos
-                            e a satisfação dos usuários finais.</p>
-                        <p>Estou me aprofundando em
-                            Engenharia de Software para ampliar meus conhecimentos e me
-                            preparando para a certificação CTFL (Certified Tester Foundation
-                            Level), visando aprimorar ainda mais minhas competências na área.</p>
-                        <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-github"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                            <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
-                        </div><!--btn-social-->
-                    </div><!--txt-sobre-->
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--sobre-->
-        <section class="portifolio">
-            <div class="interface">
-                <h2 class="titulo">MEUS <SPAn>PROJETOS.</SPAn></h2>
-                <div class="flex">
-                    <div class="img-port" style="background-image: url(./images/spotify.png);">
-                        <div class="overlay">Projeto 1</div>
-                    </div>
-                    <div class="img-port" style="background-image: url(./images/calculadora.png);">
-                        <div class="overlay">Projeto 2</div>
-                    </div>
-                    <div class="img-port" style="background-image: url(./images/formulario.png);">
-                        <div class="overlay">Projeto 3</div>
-                    </div>
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--portifolio-->
-        <section class="formulario">
-            <div class="interface">
-                <h2 class="titulo">FALE <SPAn>COMIGO.</SPAn></h2>
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
-                    <input type="text" name="" id="" placeholder="Seu celular">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-                </form>
-            </div><!--interface-->
-        </section><!--formulario-->
-    </main>
-    <footer>
-        <div class="interface">
-            <div class="line-footer">
-                <div class="flex">
-                    <div class="logo-footer">
-                        <img src="./images/HatchfulExport-All (1)/HatchfulExport-All (1)/logo_transparent.png"
-                            alt="logo">
-                    </div><!--logo-footer-->
-                    <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-github"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                        <a href="#"><button><i class="bi bi-whatsapp"></i></button></a>
-                    </div><!--btn-social-->
-                </div><!--flex-->
-            </div><!--line-footer-->
-            <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a
-                        href="mailto:carla_regina_gm@yahoo.com.br">carla_regina_gm@yahoo.com.br</a></p>
-            </div><!--line-footer-->
-        </div><!--interface-->
-        <div class="direitos-reservados">
-            <p>Desenvolvido por Carla</p>
-            <p>©Carla do Carmo. Todos os direitos reservados</p>
-        </div><!--direitos-reservados-->
-    </footer>
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="./Profile.pdf" target="_blank">Currículo</a></li>
+            <li><a href="#contato">Entrar</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="overlay-menu" id="overlay-menu"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="topo-do-site">
+      <div class="interface">
+        <div class="flex">
+          <div class="txt-topo-site">
+            <h1>ANALISTA DE QUALIDADE DE SOFTWARE<span>.</span></h1>
+            <p>Como profissional na área de qualidade de software, meu foco é implementar processos rigorosos de teste e validação para identificar e corrigir problemas antes que o produto seja lançado.</p>
+            <div class="btn-contato">
+              <a href="#contato">
+                <button>Entre em Contato</button>
+              </a>
+            </div>
+          </div>
+          <div class="img-topo-site">
+            <img src="./images/eu.png" alt="Imagem de Carla">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="especialidades">
+      <div class="interface">
+        <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+        <div class="flex">
+          <div class="especialidades-box">
+            <i class="bi bi-bug-fill"></i>
+            <h3>Testes Manuais</h3>
+            <p>Execução de testes funcionais, regressão e exploratórios, identificando bugs e assegurando a qualidade do software antes da entrega.</p>
+          </div>
+          <div class="especialidades-box">
+            <i class="bi bi-kanban"></i>
+            <h3>Metodologias Ágeis</h3>
+            <p>Atuação com Scrum e Kanban, focando em entregas rápidas, comunicação eficaz e melhoria contínua.</p>
+          </div>
+          <div class="especialidades-box">
+            <i class="bi bi-gear-fill"></i>
+            <h3>Ferramentas de QA</h3>
+            <p>Experiência com <strong>Jira</strong>, <strong>TestRail</strong>, <strong>Postman</strong>, <strong>Trello</strong>, <strong>VS Code</strong> e <strong>Notepad++</strong>.</p>
+          </div>
+        </div>
+        <div class="flex" style="margin-top: 30px;">
+          <div class="especialidades-box">
+            <i class="bi bi-file-earmark-text-fill"></i>
+            <h3>Documentação</h3>
+            <p>Criação de planos de teste, relatórios de bugs, evidências e documentação técnica.</p>
+          </div>
+          <div class="especialidades-box">
+            <i class="bi bi-terminal"></i>
+            <h3>Testes de API</h3>
+            <p>Testes com <strong>Postman</strong> e <strong>Insomnia</strong> para validar endpoints REST.</p>
+          </div>
+          <div class="especialidades-box">
+            <i class="bi bi-database-fill"></i>
+            <h3>Banco de Dados</h3>
+            <p>Validação de dados com <strong>SQL</strong> em bancos relacionais.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <div class="interface">
+        <div class="flex">
+          <div class="img-sobre">
+            <img src="./images/imagem what.jpg" alt="Imagem sobre Carla" />
+          </div>
+          <div class="txt-sobre">
+            <h2>MUITO PRAZER, <span>SOU CARLA DO CARMO.</span></h2>
+            <p>Atuo como Analista de Testes Manuais, com pós-graduação em Engenharia de Software com foco em Qualidade e Testes. Tenho um forte compromisso com a qualidade dos produtos e a satisfação dos usuários.</p>
+            <p>Estou me aprofundando em Engenharia de Software e me preparando para a certificação CTFL (Certified Tester Foundation Level).</p>
+            <div class="btn-social">
+              <a href="https://github.com/carlargm"><button><i class="bi bi-github"></i></button></a>
+              <a href="https://www.linkedin.com/in/carla-regina123/"><button><i class="bi bi-linkedin"></i></button></a>
+              <a href="https://wa.me/5517992621046"><button><i class="bi bi-whatsapp"></i></button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portifolio" id="projetos">
+      <div class="interface">
+        <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+        <div class="flex">
+          <div class="img-port" style="background-image: url(./images/spotify.png);">
+            <div class="overlay">Projeto 1</div>
+          </div>
+          <div class="img-port" style="background-image: url(./images/calculadora.png);">
+            <div class="overlay">Projeto 2</div>
+          </div>
+          <div class="img-port" style="background-image: url(./images/formulario.png);">
+            <div class="overlay">Projeto 3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario" id="contato">
+      <div class="interface">
+        <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+        <form action="https://formspree.io/f/mdkgrlkv" method="POST">
+          <input type="text" name="nome" placeholder="Seu nome completo" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <input type="tel" name="telefone" placeholder="Seu celular" />
+          <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="interface">
+      <div class="line-footer">
+        <div class="flex">
+          <div class="btn-social">
+            <a href="https://github.com/carlargm"><button><i class="bi bi-github"></i></button></a>
+            <a href="https://www.linkedin.com/in/carla-regina123/"><button><i class="bi bi-linkedin"></i></button></a>
+            <a href="https://wa.me/5517992621046"><button><i class="bi bi-whatsapp"></i></button></a>
+          </div>
+        </div>
+      </div>
+      <div class="line-footer borda">
+        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:carla_regina_gm@yahoo.com.br">carla_regina_gm@yahoo.com.br</a></p>
+      </div>
+    </div>
+    <div class="direitos-reservados">
+      <p>Desenvolvido por Carla</p>
+      <p>© Carla do Carmo. Todos os direitos reservados</p>
+    </div>
+  </footer>
 </body>
 
 </html>
+
